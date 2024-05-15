@@ -27,7 +27,7 @@ const SearchBar = () => {
     return (
         <div className="relative">
             {/* search input  */}
-            <div className="input flex justify-center relative z-10">
+            <div className="input flex justify-center">
                 <input
                     type="text"
                     placeholder='Buscar....'
@@ -37,9 +37,9 @@ const SearchBar = () => {
             </div>
 
             {/* search drop-down  */}
-            <div className=" flex justify-center w-full z-50">
+            <div className=" flex justify-center">
                 {search && (
-                    <div className="block bg-gray-200 w-96 md:w-96 lg:w-96 my-1 rounded-lg px-2 py-2">
+                    <div className="block absolute bg-gray-200 w-96 md:w-96 lg:w-96 my-1 rounded-lg px-2 py-2">
                         {filterSearchData.length > 0 ? (
                             <>
                                 {filterSearchData.map((item, index) => {
