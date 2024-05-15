@@ -37,7 +37,7 @@ const SearchBar = () => {
             </div>
 
             {/* search drop-down  */}
-            <div className="absolute top-full flex justify-center w-full z-50">
+            <div className=" flex justify-center w-full z-50">
                 {search && (
                     <div className="block bg-gray-200 w-96 md:w-96 lg:w-96 my-1 rounded-lg px-2 py-2">
                         {filterSearchData.length > 0 ? (

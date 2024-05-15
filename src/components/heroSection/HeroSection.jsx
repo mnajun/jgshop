@@ -16,7 +16,7 @@ const HeroSection = () => {
             {
                 breakpoint: 500,
                 settings: {
-                    arrows: true,
+                    arrows: false,
                 }
             }
         ],
